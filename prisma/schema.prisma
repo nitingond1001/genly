@@ -15,6 +15,16 @@ datasource db {
 }
 
 
+model Project {
+  id String @id @default(uuid())
+  name String
+  createdAt DateTime @default(now())
+  updateAt DateTime @updatedAt
+
+  messages Message[]
+}
+
+
 enum MessageRole {
   USER
   ASSISTANT
@@ -33,6 +43,9 @@ model Message {
   type MessageType
   createdAt DateTime @default(now())
   updateAt DateTime @updatedAt
+
+  projectId String
+  project Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
 
   fragment Fragment?
 }
