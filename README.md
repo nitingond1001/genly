@@ -1,55 +1,58 @@
-# ⚡️ AI-Powered App Builder (SaaS)
+# ⚙️Genly - AI-Powered App Builder
 
-> Generate full-stack applications from simple prompts using programmable AI agents powered by **Inngest** 🚀
+Genly is an **AI-first app builder** that lets you generate full-stack applications from simple prompts using programmable AI agents powered by **Inngest**.  
 
-This project demonstrates building an **AI-powered SaaS app builder** from start to finish.  
-You’ll learn how to generate components and applications with AI, orchestrate background jobs, preview live apps in cloud sandboxes, and manage authentication, billing, and Git workflows—all inside one modern platform.
+With support for **OpenAI**, **Anthropic**, and **Grok**, Genly creates entire applications and executes them securely inside **cloud sandboxes** powered by **E2B** and **Docker**.  
 
-Built with **Next.js 15**, **React 19**, **Tailwind v4**, and a fully AI-first toolchain.
+It comes with a modern developer experience including background job orchestration, authentication, billing, a project dashboard, and AI-assisted PR reviews for a seamless workflow.
 
----
+**[View Project](https://genly-lemon.vercel.app/)** 👈  
 
-## ✨ Key Features
-
-- 🚀 **Next.js 15 + React 19**
-- 🎨 **Tailwind v4 + shadcn/ui**
-- 📡 **tRPC** for full-stack type safety
-- 🔁 **Inngest** background jobs & orchestration
-- 🧠 **Inngest Agent Toolkit** for programmable AI
-- 🔐 **Clerk** authentication
-- 💳 **Clerk** billing
-- 🧱 Generate components & full apps from prompts
-- 🗂️ Live project preview with sharable URLs
-- 🖥️ **E2B** cloud sandboxes for runtime execution
-- 🐳 Docker-based sandbox templating
-- 🤖 AI model support (**OpenAI**, **Anthropic**, **Grok**)
-- 📦 **Prisma + Neon** database integration
-- 🔍 **CodeRabbit** AI-powered PR reviews
-- 🧾 Built-in credit system with usage tracking
-- 🧪 Preview ↔ Code Explorer toggle
+![Genly Screenshot](screenshot.png)
 
 ---
 
-## 🏗 Tech Stack
+## ✨ Features
 
-| Category          | Tools & Frameworks |
-|-------------------|---------------------|
-| **Frontend**      | Next.js 15, React 19, Tailwind v4, shadcn/ui |
-| **API**           | tRPC, Next.js App Router |
-| **Auth & Billing**| Clerk (Auth), Clerk Billing |
-| **Background Jobs** | Inngest + Agent Toolkit |
-| **AI Providers**  | OpenAI, Anthropic, xAI Grok |
-| **Database**      | Prisma + Neon Postgres |
-| **Execution**     | E2B cloud sandboxes, Docker templates |
-| **CI / PRs**      | CodeRabbit AI PR reviews |
+- 🚀 **Next.js 15 + React 19** – Built on the latest frontend stack.  
+- 🎨 **Tailwind v4 + Shadcn/ui** – Modern and sleek UI components.  
+- 📡 **tRPC Integration** – Full-stack type safety and DX.  
+- 🔁 **Inngest Background Jobs** – Reliable async workflows.  
+- 🧠 **Inngest Agent Toolkit** – Programmable AI agents for app generation.  
+- 🔐 **Clerk Authentication** – Secure user login & management.  
+- 💳 **Clerk Billing** – Subscription and credit-based billing system.  
+- 🧱 **AI-Powered Generation** – Components & apps generated from prompts.  
+- 🗂️ **Live Project Preview** – Instantly preview projects with shareable URLs.  
+- 🖥️ **E2B Cloud Sandboxes** – Secure runtime execution environments.  
+- 🐳 **Docker Sandbox Templates** – Reproducible and isolated execution.  
+- 🤖 **AI Model Support** – OpenAI, Anthropic, and Grok support.  
+- 📦 **Prisma + Neon** – Scalable database integration.  
+- 🤖 **CodeRabbit AI Reviews** – Automated GitHub PR reviews.  
+- 🧾 **Credit System** – Usage tracking with billing integration.  
+- 🧪 **Preview + Code Explorer** – Toggle between running app and code.  
+
+---
+
+## 🛠️ Tech Stack
+
+Genly is built with a fully modern AI-first toolchain:
+
+- **Frameworks:** Next.js 15, React 19  
+- **Styling:** Tailwind v4, Shadcn/ui  
+- **APIs & Type Safety:** tRPC  
+- **Job Orchestration:** Inngest  
+- **Authentication & Billing:** Clerk  
+- **Database:** Prisma + Neon  
+- **Runtime Sandboxes:** E2B + Docker  
+- **AI Models:** OpenAI, Anthropic, Grok  
+- **Code Reviews:** CodeRabbit  
 
 ---
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone & Install
+To set up **Genly** locally:
 
-```bash
-git clone <your-repo-url> ai-app-builder
-cd ai-app-builder
-pnpm install   # or npm/yarn/bun
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/genly.git
