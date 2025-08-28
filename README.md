@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡️ AI-Powered App Builder (SaaS)
 
-## Getting Started
+> Generate full-stack applications from simple prompts using programmable AI agents powered by **Inngest** 🚀
 
-First, run the development server:
+This project demonstrates building an **AI-powered SaaS app builder** from start to finish.  
+You’ll learn how to generate components and applications with AI, orchestrate background jobs, preview live apps in cloud sandboxes, and manage authentication, billing, and Git workflows—all inside one modern platform.
+
+Built with **Next.js 15**, **React 19**, **Tailwind v4**, and a fully AI-first toolchain.
+
+---
+
+## ✨ Key Features
+
+- 🚀 **Next.js 15 + React 19**
+- 🎨 **Tailwind v4 + shadcn/ui**
+- 📡 **tRPC** for full-stack type safety
+- 🔁 **Inngest** background jobs & orchestration
+- 🧠 **Inngest Agent Toolkit** for programmable AI
+- 🔐 **Clerk** authentication
+- 💳 **Clerk** billing
+- 🧱 Generate components & full apps from prompts
+- 🗂️ Live project preview with sharable URLs
+- 🖥️ **E2B** cloud sandboxes for runtime execution
+- 🐳 Docker-based sandbox templating
+- 🤖 AI model support (**OpenAI**, **Anthropic**, **Grok**)
+- 📦 **Prisma + Neon** database integration
+- 🔍 **CodeRabbit** AI-powered PR reviews
+- 🧾 Built-in credit system with usage tracking
+- 🧪 Preview ↔ Code Explorer toggle
+
+---
+
+## 🏗 Tech Stack
+
+| Category          | Tools & Frameworks |
+|-------------------|---------------------|
+| **Frontend**      | Next.js 15, React 19, Tailwind v4, shadcn/ui |
+| **API**           | tRPC, Next.js App Router |
+| **Auth & Billing**| Clerk (Auth), Clerk Billing |
+| **Background Jobs** | Inngest + Agent Toolkit |
+| **AI Providers**  | OpenAI, Anthropic, xAI Grok |
+| **Database**      | Prisma + Neon Postgres |
+| **Execution**     | E2B cloud sandboxes, Docker templates |
+| **CI / PRs**      | CodeRabbit AI PR reviews |
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone & Install
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone <your-repo-url> ai-app-builder
+cd ai-app-builder
+pnpm install   # or npm/yarn/bun
