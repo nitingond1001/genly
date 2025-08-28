@@ -53,12 +53,32 @@ Genly is built on a **modern AI toolchain** combining frontend, backend, cloud, 
 
 ## 🚀 Getting Started
 
-To set up **Genly** locally:
+To run this project locally, follow these simple steps:
 
-1. **Clone the repository:**
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/nitingond1001/genly.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd genly
+    ```
+
+3. **Install Dependencies**
    ```bash
-   git clone https://github.com/your-username/genly.git
-
+   npm install
+   # or
+   yarn install
+   ```
+   
+4. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   
+---
 
 ## 📬 Contact
 
