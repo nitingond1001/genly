@@ -8,7 +8,7 @@ It comes with a modern developer experience including background job orchestrati
 
 **[View Project](https://genly-lemon.vercel.app/)** 👈  
 
-![Genly Screenshot](screenshot.png)
+![Genly Screenshot](image.png)
 
 ---
 
