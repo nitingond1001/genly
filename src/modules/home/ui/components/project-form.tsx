@@ -27,7 +27,7 @@ export const ProjectForm = () => {
     const router = useRouter();
     const trpc = useTRPC();
     const clerk = useClerk();
-    const QueryClient = useQueryClient();
+    const queryClient = useQueryClient();
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
         defaultValues: {
@@ -37,11 +37,14 @@ export const ProjectForm = () => {
 
     const createProject = useMutation(trpc.projects.create.mutationOptions({
         onSuccess: (data) => {
-            QueryClient.invalidateQueries(
+            queryClient.invalidateQueries(
                 trpc.projects.getMany.queryOptions(),
             );
+
+            queryClient.invalidateQueries(
+                trpc.usage.status.queryOptions(),
+            );
             router.push(`/projects/${data.id}`);
-            // TODO: Invalidate usage status
         },
         onError: (error) => {
             toast.error(error.message);
@@ -50,7 +53,9 @@ export const ProjectForm = () => {
                 clerk.openSignUp();
             }
 
-            // TODO: Redirect to pricing page if specific error
+            if (error.data?.code === "TOO_MANY_REQUESTS") {
+                router.push("/pricing");
+            }
         },
     }));
 
