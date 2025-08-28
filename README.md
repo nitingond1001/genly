@@ -39,13 +39,13 @@ Genly is built on a **modern AI toolchain** combining frontend, backend, cloud, 
 
 | Category              | Technologies                                                                 |
 |-----------------------|-------------------------------------------------------------------------------|
-| **Frontend**          | [Next.js 15](https://nextjs.org/), [React 19](https://react.dev/), [Tailwind CSS v4](https://tailwindcss.com/), [Shadcn/ui](https://ui.shadcn.com/) |
-| **Backend & APIs**    | [tRPC](https://trpc.io/), [Inngest](https://www.inngest.com/), [Prisma](https://www.prisma.io/) |
-| **Database**          | [PostgreSQL](https://www.postgresql.org/), [Neon](https://neon.tech/) (serverless Postgres) |
-| **Auth & Billing**    | [Clerk](https://clerk.com/) – authentication, user management & billing |
-| **AI & Automation**   | [OpenAI](https://openai.com/), [Anthropic](https://www.anthropic.com/), [Grok](https://x.ai/), [Inngest Agent Toolkit](https://www.inngest.com/), [CodeRabbit](https://coderabbit.ai/) |
-| **Runtime & Infra**   | [E2B](https://e2b.dev/), [Docker](https://www.docker.com/) |
-| **Dev Experience**    | GitHub, GitHub Actions, Prettier, ESLint |
+| **Frontend**          | [Next.js 15], [React 19], [Tailwind CSS v4], [Shadcn/ui] |
+| **Backend & APIs**    | [tRPC], [Inngest], [Prisma] |
+| **Database**          | [PostgreSQL], [Neon] [serverless Postgres] |
+| **Auth & Billing**    | [Clerk] – [authentication], [user management] & [billing] |
+| **AI & Automation**   | [OpenAI], [Anthropic], [Grok], [Inngest Agent Toolkit], [CodeRabbit] |
+| **Runtime & Infra**   | [E2B], [Docker] |
+| **Dev Experience**    | [GitHub], [GitHub Actions], [Prettier], [ESLint] |
 
    
 
