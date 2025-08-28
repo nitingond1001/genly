@@ -1,10 +1,10 @@
-# ⚙️Genly - AI-Powered App Builder
+# ⚙️Genly - AI-Powered website Builder
 
-Genly is an **AI-first app builder** that lets you generate full-stack applications from simple prompts using programmable AI agents powered by **Inngest**.  
+Genly is an **AI website builder** that lets you generate full-stack website from simple prompts using programmable AI agents powered by **Inngest**.  
 
-With support for **OpenAI**, **Anthropic**, and **Grok**, Genly creates entire applications and executes them securely inside **cloud sandboxes** powered by **E2B** and **Docker**.  
+With support for **OpenAI**, **Anthropic**, and **Grok**, Genly creates entire website and executes them securely inside **cloud sandboxes** powered by **E2B** and **Docker**.  
 
-It comes with a modern developer experience including background job orchestration, authentication, billing, a project dashboard, and AI-assisted PR reviews for a seamless workflow.
+It comes with a modern developer experience including background job orchestration, authentication, billing, a project dashboard, and a seamless workflow.
 
 **[View Project](https://genly-lemon.vercel.app/)** 👈  
 
@@ -35,7 +35,7 @@ It comes with a modern developer experience including background job orchestrati
 
 ## 🛠️ Tech Stack
 
-Genly is built with a fully modern AI-first toolchain:
+Genly is built with a fully modern AI toolchain:
 
 - **Frameworks:** Next.js 15, React 19  
 - **Styling:** Tailwind v4, Shadcn/ui  
