@@ -35,36 +35,18 @@ Genly comes packed with cutting-edge features to make full-stack website buildin
 
 ## 🛠️ Tech Stack
 
-Genly is built on a **modern AI toolchain** combining frontend, backend, cloud, and AI services:  
+Genly is built on a **modern AI toolchain** combining frontend, backend, cloud, and AI services:
 
-### 🔹 Frontend
-- [Next.js 15](https://nextjs.org/) – React framework for server-side rendering & app routing  
-- [React 19](https://react.dev/) – UI library for building interactive interfaces  
-- [Tailwind CSS v4](https://tailwindcss.com/) – Utility-first CSS framework for styling  
-- [Shadcn/ui](https://ui.shadcn.com/) – Pre-built, customizable UI components  
+| Category              | Technologies                                                                 |
+|-----------------------|-------------------------------------------------------------------------------|
+| **Frontend**          | [Next.js 15](https://nextjs.org/), [React 19](https://react.dev/), [Tailwind CSS v4](https://tailwindcss.com/), [Shadcn/ui](https://ui.shadcn.com/) |
+| **Backend & APIs**    | [tRPC](https://trpc.io/), [Inngest](https://www.inngest.com/), [Prisma](https://www.prisma.io/) |
+| **Database**          | [PostgreSQL](https://www.postgresql.org/), [Neon](https://neon.tech/) (serverless Postgres) |
+| **Auth & Billing**    | [Clerk](https://clerk.com/) – authentication, user management & billing |
+| **AI & Automation**   | [OpenAI](https://openai.com/), [Anthropic](https://www.anthropic.com/), [Grok](https://x.ai/), [Inngest Agent Toolkit](https://www.inngest.com/), [CodeRabbit](https://coderabbit.ai/) |
+| **Runtime & Infra**   | [E2B](https://e2b.dev/), [Docker](https://www.docker.com/) |
+| **Dev Experience**    | GitHub, GitHub Actions, Prettier, ESLint |
 
-### 🔹 Backend & APIs
-- [tRPC](https://trpc.io/) – End-to-end type-safe APIs  
-- [Inngest](https://www.inngest.com/) – Background jobs, workflows, and agent orchestration  
-- [Prisma](https://www.prisma.io/) – Type-safe ORM for database access  
-- [PostgreSQL](https://www.postgresql.org/) – Relational database for structured data  
-- [Neon](https://neon.tech/) – Serverless Postgres database with autoscaling  
-
-### 🔹 Authentication & Billing
-- [Clerk](https://clerk.com/) – Authentication, user management, and billing integration  
-
-### 🔹 AI & Automation
-- [OpenAI](https://openai.com/), [Anthropic](https://www.anthropic.com/), [Grok](https://x.ai/) – AI models for code generation  
-- [Inngest Agent Toolkit](https://www.inngest.com/) – Programmable AI agents  
-
-### 🔹 Runtime & Infrastructure
-- [E2B](https://e2b.dev/) – Cloud sandboxes for secure runtime execution  
-- [Docker](https://www.docker.com/) – Sandbox templating & containerization  
-
-### 🔹 Developer Experience
-- GitHub – Repository hosting and collaboration  
-- GitHub Actions – CI/CD pipelines  
-- Prettier & ESLint – Code formatting and linting  
    
 
 ---
