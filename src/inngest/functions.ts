@@ -264,4 +264,3 @@ export const codeAgentFunction = inngest.createFunction(
     };
   },
 );
-
