@@ -58,3 +58,12 @@ To set up **Genly** locally:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/genly.git
+
+
+## 📬 Contact
+
+Feel free to reach out if you'd like to connect or collaborate on a project!
+
+-   **LinkedIn:** [linkedin.com/in/nitingond](https://linkedin.com/in/nitingond)
+-   **GitHub:** [@nitingond1001](https://github.com/nitingond1001)
+-   **Email:** nitingond.1602@gmail.com
