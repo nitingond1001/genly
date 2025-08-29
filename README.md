@@ -79,6 +79,10 @@ To run this project locally, follow these simple steps:
    yarn dev
    
 ---
+## 👨‍💻 Author
+
+This project **Genly** is proudly built by **Nitin Gond** 🚀  
+---
 
 ## 📬 Contact
 
