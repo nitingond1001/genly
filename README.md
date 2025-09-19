@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚙️Genly - AI-Powered website Builder
 
-## Getting Started
+Genly is an **AI website builder** that lets you generate full-stack website from simple prompts using programmable AI agents powered by **Inngest**.  
 
-First, run the development server:
+With support for **OpenAI**, **Anthropic**, and **Grok**, Genly creates entire website and executes them securely inside **cloud sandboxes** powered by **E2B** and **Docker**.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+It comes with a modern developer experience including background job orchestration, authentication, billing, a project dashboard, and a seamless workflow.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**[View Project](https://genly-lemon.vercel.app/)** 👈  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Genly Screenshot](image.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+Genly comes packed with cutting-edge features to make full-stack website building with AI seamless and powerful:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **AI-Powered website Generation** – Create entire website or individual components from simple natural language prompts.  
+- **Programmable AI Agents** – Build with Inngest’s agent toolkit for orchestrating multi-step workflows.  
+- **Background Job Orchestration** – Reliable async tasks powered by Inngest.  
+- **Authentication & Billing** – Secure login, user management, and subscriptions powered by Clerk.  
+- **Credit System & Usage Tracking** – Track resource usage with a built-in credit system.  
+- **Live Preview with Shareable URLs** – Instantly see your generated projects in action.  
+- **Code Explorer Toggle** – Switch between running preview and underlying code.  
+- **E2B Cloud Sandboxes** – Secure, isolated environments for runtime execution.  
+- **Docker Sandbox Templates** – Easily reproducible and customizable sandbox setups.  
+- **Database Integration** – Seamless Prisma + Neon database setup for persistence.  
+- **AI Model Flexibility** – Choose from OpenAI, Anthropic, or Grok for generation.  
+- **Modern Frontend Stack** – Built with Next.js 15, React 19, Tailwind v4, and Shadcn/ui.  
+- **Type-Safe APIs** – End-to-end type safety with tRPC.  
+- **Scalable Architecture** – Designed for production-ready, AI-first web-app.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Genly is built on a **modern AI toolchain** combining frontend, backend, cloud, and AI services:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Category              | Technologies                                                                 |
+|-----------------------|-------------------------------------------------------------------------------|
+| **Frontend**          | [Next.js 15], [React 19], [Tailwind CSS v4], [Shadcn/ui] |
+| **Backend & APIs**    | [tRPC], [Inngest], [Prisma] |
+| **Database**          | [PostgreSQL], [Neon] [serverless Postgres] |
+| **Auth & Billing**    | [Clerk] – [authentication], [user management] & [billing] |
+| **AI & Automation**   | [OpenAI], [Anthropic], [Grok], [Inngest Agent Toolkit], [CodeRabbit] |
+| **Runtime & Infra**   | [E2B], [Docker] |
+| **Dev Experience**    | [GitHub], [GitHub Actions], [Prettier], [ESLint] |
+
+   
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally, follow these simple steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/nitingond1001/genly.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd genly
+    ```
+
+3. **Install Dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+   
+4. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   
+---
+## 👨‍💻 Author
+
+This project **Genly** is proudly built by **Nitin Gond** 🚀  
+---
+
+## 📬 Contact
+
+Feel free to reach out if you'd like to connect or collaborate on a project!
+
+-   **LinkedIn:** [linkedin.com/in/nitingond](https://linkedin.com/in/nitingond)
+-   **GitHub:** [@nitingond1001](https://github.com/nitingond1001)
+-   **Email:** nitingond.1602@gmail.com
